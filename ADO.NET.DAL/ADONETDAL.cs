@@ -20,6 +20,7 @@ namespace ADO.NET.DAL
 
     public class ADONETDAL
     {
+        //TODO 
         string connectionString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DB_Name;Data Source=.";
 
         public IEnumerable<Product> GetAllProducts()
