@@ -15,6 +15,7 @@ namespace ADO.NET.DAL
         public decimal UnitPrice { get; set; }
         public string Description { get; set; }
         public int CategoryId { get; set; }
+        public int CategoryId1 { get; set; }
     }
 
     public class ADONETDAL
